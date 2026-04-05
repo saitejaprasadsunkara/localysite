@@ -385,7 +385,7 @@ export default function LocalyWebsite() {
               <div className="w-48 aspect-video bg-gradient-to-br from-orange-500/30 to-green-500/30 rounded-3xl border border-white/20 p-4 relative">
                 <div className="w-full h-full bg-slate-800 rounded-2xl flex flex-col items-center justify-center border border-white/10">
                   <div className="text-6xl mb-4">
-                    {appScreens[activeScreenIndex].emoji || "📱"}
+                    {/* {appScreens[activeScreenIndex].emoji || "📱"} */}
                   </div>
                   <p className="text-center text-sm text-gray-300">
                     {appScreens[activeScreenIndex].title}
